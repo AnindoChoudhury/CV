@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Socials</title>
+</head>
+<body>
+    <h3>Socials</h3>
+    <ul type="disk">
+      <li><a href="https://www.quora.com/profile/Anindo-Choudhury-2" target="blank">Quora</a></li>
+      <li><a href="https://www.linkedin.com/in/anindochoudhury" target="blank">Linkedin</a></li>
+    </ul>
+    <h3>Input your contact details : </h3>
+
+    <form action="mailto:choudhuryanindo2004@gmail.com" method="post" enctype="text/plain"> <!--Form starts-->
+      <!--enctype removes the percentage symbols instead has plain text-->
+      <div>
+        <label for="name">Name : </label>
+        <input type="text" name="yourname" id="name" required />
+      </div>
+      <br />
+      <div>
+        <label for="number">Phone : </label>
+
+        <input
+          type="number"
+          name="yourphone"
+          id="number"
+          maxlength="10"
+          minlength="10"
+        />
+      </div>
+      <br />
+      <label for="message">Your message : </label>
+
+      <div>
+        <br />
+        <textarea name="yourmessage" id="message" cols="30" rows="5"></textarea>
+      </div>
+      <br />
+
+      <div>
+        <label for="mail">E-mail :</label>
+        <input type="email" name="email" id="mail">
+      </div>
+
+      
+      <br />
+      <input type="submit" value="Submit" />
+      <input type="reset" value="Reset" />
+    </form>
+</body>
+</html>
